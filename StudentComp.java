@@ -1,11 +1,11 @@
-public class Student {
+public class StudentComp {
   
   String uniName;
   String studentNr;
   Person person;
 
 
-  public Student(String uniName, String studentNr, String firstName, String lastName, int age)
+  public StudentComp(String uniName, String studentNr, String firstName, String lastName, int age)
   {
     this.person = new Person(firstName, lastName, age);
     this.uniName = uniName;
@@ -13,7 +13,7 @@ public class Student {
   }
 
 
-  public Student(String uniName, String studentNr, Person person)
+  public StudentComp(String uniName, String studentNr, Person person)
   {
     this.person = person;
     this.uniName = uniName;

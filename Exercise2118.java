@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Exercise2118  {
 
   public static void betweenZeroAndOne(double[] a) {

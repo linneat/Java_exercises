@@ -4,10 +4,7 @@ public class Methods {
     
     System.out.println(Point.getClassName());
     
-    System.out.println(b.getClassName());
-    
     System.out.println(b.getY());
     
-    System.out.println(Point.getY());
   }
 }

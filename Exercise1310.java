@@ -16,7 +16,6 @@ public class Exercise1310
     int nCube;
 
     while (n <= 2048 ) {
-      n = n;
       logN = Math.log(n);
       nLogN = n*logN;
       nSquare = (int)Math.pow(n, 2);

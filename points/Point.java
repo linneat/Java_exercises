@@ -1,3 +1,5 @@
+package points;
+
 public class Point {
   int xx; // x-coordinate
   int yy; // y-coordinate

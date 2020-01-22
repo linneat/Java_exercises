@@ -6,8 +6,6 @@ public class Exercise132
     double b = Double.parseDouble(args[1]);
     double c = Double.parseDouble(args[2]);
     double d = b*b - 4*a*c;
-    double x11;
-    double x22;
     double x1;
     double x2;
     String answer;

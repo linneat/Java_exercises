@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Exercise2119  {
 
   public static int countOfI(int[] a, int v) {

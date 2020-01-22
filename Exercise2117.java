@@ -15,6 +15,8 @@ public class Exercise2117
     int myColumns = input.nextInt();
     System.out.println("columns entered = " + myColumns);
 
+    input.close();
+
     int M = myRows;
     int N = myColumns;
     boolean[][] a = new boolean[M][N];

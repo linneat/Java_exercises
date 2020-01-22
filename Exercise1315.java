@@ -22,7 +22,6 @@ public class Exercise1315
 
 
     while (leftToPay > 0.2) {
-      monthlyPay = monthlyPay;
       paidSoFar = paidSoFar + monthlyPay;
       leftToPay = totalPay - paidSoFar;
       System.out.println(df.format(monthlyPay) + sep  + df.format(paidSoFar) + sep + df.format(leftToPay) + sep);

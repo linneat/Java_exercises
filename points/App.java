@@ -1,3 +1,5 @@
+package points;
+
 public class App {
   public static boolean allInFirstQuadrant(int[][] points) {
     for(int i = 0; i < points.length; i++) {

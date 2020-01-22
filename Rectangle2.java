@@ -14,6 +14,7 @@ public class Rectangle2
     this.y2 = y22;
   }
 
+
   private double width()
   {
     double width = this.x2 - this.x1;

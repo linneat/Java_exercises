@@ -41,12 +41,11 @@ public class StdRandom
       a[i] = a[r];
       a[r] = t;
     }
-    return a; // WHAT TO RETURN?
   }
 
   public static void main(String[] args)
   {
-    int n = Integer.parseInt(args[0]);
+/*     int n = Integer.parseInt(args[0]);
     double[] t = {0.5, 0.3, 0.1, 0.1};
     for (int i = 0; i< n; i++)
     {
@@ -55,6 +54,6 @@ public class StdRandom
       StdOut.printf("%5b ", bernoulli(0.5));
       StdOut.printf(" %2d ", discrete(t));
       StdOut.printf(" %2d ", shuffle(t));
-    }
+    } */
   }
 }

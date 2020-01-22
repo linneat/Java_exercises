@@ -34,7 +34,7 @@ public static Boolean any2(Boolean[] a){
     boolean allTrueSoFar = true;
     
     for (int i = 0; i < a.length; i++) {
-      allTrueSoFar = allTrueSoFar && (a[i] == true)
+      allTrueSoFar = allTrueSoFar && (a[i] == true);
     }
   
     return allTrueSoFar;

@@ -21,9 +21,7 @@ public class Exercise146
                 print = "_";
             }
             System.out.println("row: " + row + " column " + column + " element " + print);
-
         }
-
     }
 
 
