@@ -15,7 +15,7 @@ public class Exercise2117
     int myColumns = input.nextInt();
     System.out.println("columns entered = " + myColumns);
 
-    input.close();
+    
 
     int M = myRows;
     int N = myColumns;
@@ -28,6 +28,7 @@ public class Exercise2117
         a[i][j] = input.nextBoolean();
       }
     }
+    input.close();
     return a;
   }
 
